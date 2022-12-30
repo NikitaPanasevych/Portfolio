@@ -1,7 +1,6 @@
 .section{
     background-color: #121212;
-    height: 100vh;
-    width: 100%;
+    height: 50rem;
     display: flex;
     flex-direction: column;
 }
@@ -10,20 +9,21 @@
     background-color: #121212;
     color: aliceblue;
     margin: auto;
+    transform: translate(0, -5em);
 }
 
 .header{
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .article{
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .button{
-    font-size: 20px;
-    width: 20em;
-    height: 4em;
+    font-size: 1.5rem;
+    width: 30rem;
+    height: 6rem;
     transform: translateY(2em);
     background-color: inherit;
     color: #F05454;
@@ -34,7 +34,6 @@
 }
 
 .button:hover{
-    transform: translate(1em,1em);
     scale: 1.1;
 }
 
@@ -42,41 +41,8 @@ strong{
     color: #F05454;
 }
 
-svg{
-    margin: auto;
-    transform: translate(0,100%);
-    scale: 0.75;
-    cursor: pointer;
-
-}
 
 
-svg > path:nth-child(1){
-    animation-name: svg-anim;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-svg > path:nth-child(2){
-    animation-name: svg-anim;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-
-}
-
-svg > path:nth-child(3){
-    animation-name: svg-anim;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes svg-anim{
-    0% {transform: translate(0,0%);}
-    25% {transform: translate(0,-5%);}
-    50% {transform: translate(0,-10%);}
-    75% {transform: translate(0,-5%);}
-    100% {transform: translate(0,0%);}
-}
 
 
 

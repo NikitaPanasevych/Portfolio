@@ -80,7 +80,7 @@ const Projects = (props: IProjectData) => {
                             :null)}
                         <div className={ProjectStyle.Switch}>
                             <button onClick={changeProjectLeft} className={ProjectStyle.button}>
-                                <img className={ProjectStyle.img} src="https://img.icons8.com/color/512/arrow--v1.png" />
+                                <img className={ProjectStyle.img} src="https://user-images.githubusercontent.com/62018390/208675326-fa5e563d-611b-45e6-a925-2498e6f08ef0.png" />
                             </button>
                             <div>
                                 {
@@ -110,7 +110,7 @@ const Projects = (props: IProjectData) => {
                                 }
                             </div>
                             <button onClick={changeProjectRight} className={ProjectStyle.button}>
-                                <img src="https://img.icons8.com/color/512/arrow--v1.png" />
+                                <img className={ProjectStyle.img2} src="https://user-images.githubusercontent.com/62018390/208675326-fa5e563d-611b-45e6-a925-2498e6f08ef0.png" />
                             </button>
                         </div>
                 </motion.div>
